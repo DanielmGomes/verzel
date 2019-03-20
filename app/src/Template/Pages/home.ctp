@@ -70,13 +70,13 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
               <li class="nav-item">
                 <a class="nav-link" <?php echo $this->Html->link(('Products'),['controller' => 'comment', 'action' => 'index']); ?></a></li> 
               <li class="nav-item">
-                <a class="nav-link" <?php echo $this->Html->link(('sig in'),['controller' => 'users', 'action' => 'add']); ?></a>
+                <a class="nav-link" <?php echo $this->Html->link(('sign in'),['controller' => 'users', 'action' => 'add']); ?></a>
               </li>
             </ul>
 
             <ul class="navbar-right">
               <li class="nav-item">
-                <button class="button button-header bg">Sign up</button>
+                <a class="button bg" <?php echo $this->Html->link(('sign up'),['controller' => 'users', 'action' => 'login']); ?></a>
               </li>
             </ul>
           </div> 
@@ -101,7 +101,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
             <div class="hero-banner__content">
               <h1>Advanced software made simple</h1>
               <p>Vel aliquam quis, nulla pede mi commodo tristique nam hac Luctun torquent velit felis commodo pellentesque nulla cras vel aliqua quisan nulla pede mi commoda</p>
-              <a class="button bg" <?php echo $this->Html->link(('sig in'),['controller' => 'users', 'action' => 'add']); ?></a>
+              <a class="button bg" <?php echo $this->Html->link(('sign in'),['controller' => 'users', 'action' => 'add']); ?></a>
             </div>
           </div>
         </div>
